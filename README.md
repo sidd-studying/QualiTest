@@ -13,6 +13,7 @@ HeperUtils.java class contains all the helper methods.
 We have used Cucumber Picocontainer to share daya between the steps.
 QualiTestDAO contains all the data that is shared between steps.
 SeleniumInitialize initalises the WebDriver and kills the webdriver instance once scenario is completed.
+ActionFailedException is the user defined exception class.
 
 **Issues in the existing application:**
 1. When we try to add a product with name "Women's dress", the ADDTOACART button navigates the call to an alltogether different WebPage. And hence the original call fails. This is an issue
