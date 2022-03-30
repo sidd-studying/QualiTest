@@ -15,7 +15,7 @@ import java.util.List;
  *
  * @author siddharth_patil
  */
-public class LandingPageStepDef extends SeleniumInitializer{
+public class LandingPageStepDef extends SeleniumInitializer {
 
     public LandingPageController landingPageController;
     private QualiTestDAO qualiTestDAO;
@@ -26,7 +26,7 @@ public class LandingPageStepDef extends SeleniumInitializer{
     }
 
     @Given("I add following products to my wish list")
-    public void iAddFollowingProductsToMyWishList(final List<String> userInputs) throws InterruptedException {
+    public void iAddFollowingProductsToMyWishList(final List<String> userInputs) {
         landingPageController.addItemsToWishList(userInputs);
     }
 
@@ -37,6 +37,6 @@ public class LandingPageStepDef extends SeleniumInitializer{
 
     @AfterAll
     public static void tearDownWebDriver() {
-//        SeleniumInitializer.tearDownWebDriver();
+        SeleniumInitializer.tearDownWebDriver();
     }
 }
