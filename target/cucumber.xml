@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="47.534">
+<testcase classname="Feature for testing the Cart functionality." name="Add to wish list, add to cart scenario : HappyPath" time="47.354">
+<system-out><![CDATA[Given I add following products to my wish list..............................passed
+When I view my wishlist table...............................................passed
+Then I find total 4 selected items in my Wishlist...........................passed
+When I search for lowest price product......................................passed
+And I am able to add the lowest price item to my cart.......................passed
+Then I am able to verify the item in my cart................................passed
+]]></system-out>
+</testcase>
+</testsuite>
