@@ -26,9 +26,8 @@ ActionFailedException is the user defined exception class.
 3. We may use APACHE POI and store the test cases/data inside it. This will help us maintain the test data more efficiently.
 4. Can use Log4J for logging.
 5. We can also create a hybrid framework out of the same one which would do FrontEnd/GUI testing(using Selenium) 
-and backend/AP/MicroService testing (using Rest-Assured)
+and backend/API/MicroService testing (using Rest-Assured)
 6. Can incorprate JDBC connection if required.
-
 
 
 
